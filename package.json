@@ -1,0 +1,23 @@
+{
+  "name": "html-jsx-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "FylypekUNO",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-react": "^7.23.3",
+    "@minify-html/node": "^0.15.0",
+    "@parcel/css": "^1.14.0",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
+  }
+}
